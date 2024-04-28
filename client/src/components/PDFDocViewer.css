@@ -112,3 +112,44 @@
     gap: var(--gap-mini);
   }
 }
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  overflow-y: scroll;
+  height: 420px;
+}
+
+.message-container-container {
+  padding: 20px;
+}
+
+.message-box {
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.message-box-response {
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 100, 0.15);
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.message-group {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}

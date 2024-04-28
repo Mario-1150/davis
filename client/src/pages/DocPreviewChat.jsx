@@ -1,18 +1,18 @@
-import React, { useCallback, useRef } from "react";
+import React, { useCallback, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import FrameComponent from "../components/FrameComponent";
 import PDFDocViewer from "../components/PDFDocViewer";
 import rectangleImage from "../../public/rectangle36.png"; // Import the image
 import "./DocPreviewChat.css";
-
+//http://localhost:5174/5-doc-preview-chat
 const DocPreviewChat = () => {
   const navigate = useNavigate();
   const inputRef = useRef(null); // Reference to the text input element
-
+  
   const onEasyReadTextClick = useCallback(() => {
     navigate("/");
   }, [navigate]);
-
+  
   const handleKeyPress = useCallback(
     (event) => {
       if (event.key === "Enter") {
@@ -48,6 +48,7 @@ const DocPreviewChat = () => {
       });
   }, []);
 
+  // console.log(current)
   return (
     <div className="doc-preview-chat">
       <FrameComponent onEasyReadTextClick={onEasyReadTextClick} />
@@ -55,7 +56,7 @@ const DocPreviewChat = () => {
         <div className="frame-child4" />
         <h1 className="document-preview1">Document Preview</h1>
         <PDFDocViewer />
-        <img
+        {/* <img
           src={rectangleImage}
           alt="Rectangle 36"
           className="text-input" // Use the same class as the text input
@@ -64,10 +65,11 @@ const DocPreviewChat = () => {
         <input
           type="text"
           className="text-input"
-          placeholder="Type your prompt here and press Enter"
+          placeholder=" your prompt here anTyped press Enter"
           ref={inputRef} // Set the ref to access the input element
           onKeyPress={handleKeyPress} // Add the key press event handler
-        />
+
+        /> */}
       </main>
     </div>
   );

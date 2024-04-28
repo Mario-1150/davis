@@ -57,8 +57,8 @@ def llama3_POST():
 
     pdb.set_trace()
     print("Post /llama3 called")
-    json_content = flask.request.data.strip().decode("utf-8")
-    query = json.loads(json_content)["query"]
+    json_content = request.get_json()
+    query = json_content["query"]
 
     print(f"query: {query}")
     system= """\n\n You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. If you don't know the answer to a question, please don't share false information."""
@@ -83,9 +83,9 @@ def llama3_POST():
             )
     print(response)
 
-    #response_answer = {"answer": response}
     response = tokenizer.decode(tokens[0], skip_special_tokens=True)
-    encoded_response = json.dumps(response)
+    response_answer = {"answer": response}
+    encoded_response = json.dumps(response_answer)
     print(encoded_response)
     return flask.Response(encoded_response, status=200, mimetype="application/json")
 
