@@ -14,7 +14,7 @@ from langchain.prompts import PromptTemplate
 
 
 app = Flask(__name__)
-
+CORS(app)
 
 folder_path = "db"
 
@@ -42,6 +42,17 @@ def llama3_POST():
     response_answer = {"answer": response}
 
     return response_answer
+
+@app.route("/backend-route", methods=["POST"])
+def backend_route():
+    prompt = request.json.get("prompt")
+    print("Received prompt:", prompt)
+
+    # Handle the request here
+
+    return jsonify({"message": "Received request at /backend-route"})
+
+
 
 @app.route("/pdf", methods=["POST"])
 def pdfPost():
