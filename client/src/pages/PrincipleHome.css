@@ -1,0 +1,325 @@
+.pexels-liza-summer-6347901-1-icon {
+  width: 595px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.image-belleco-child {
+  height: calc(100% - 90px);
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 90px;
+  left: 0;
+  background-color: var(--color-lemonchiffon);
+}
+.for-students {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.we-provide-the {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.academic-transcripts,
+.course-information,
+.employment-contracts,
+.financial-aid-information,
+.offer-letters,
+.visa-information {
+  margin-bottom: 0;
+}
+.offer-letters-financial-aid-in {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-13xl);
+}
+.blank-line {
+  margin: 0;
+}
+.we-provide-the-container {
+  width: 557px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 38px;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 1;
+}
+.for-students-recent-graduate-parent,
+.image-belleco,
+.image-belleco-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.for-students-recent-graduate-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.image-belleco,
+.image-belleco-inner {
+  box-sizing: border-box;
+}
+.image-belleco-inner {
+  width: 618px;
+  flex-direction: column;
+  padding: var(--padding-46xl) 0 0;
+  min-width: 618px;
+}
+.image-belleco {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 90px;
+  position: relative;
+  gap: 99px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+.pexels-belle-co-99483-1000445-icon {
+  width: 667px;
+  height: 654px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 1117px;
+  left: -29px;
+  border-radius: 1px;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lemonchiffon);
+}
+.our-goal,
+.our-goal-is {
+  position: relative;
+  line-height: 38px;
+  z-index: 1;
+}
+.our-goal {
+  margin: 0;
+  width: 198px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.our-goal-is {
+  align-self: stretch;
+}
+.our-goal-is-to-provide-people-wrapper,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.our-goal-is-to-provide-people-wrapper {
+  width: 722px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 56px 0 0;
+  margin-left: -198px;
+  font-size: var(--font-size-5xl);
+}
+.rectangle-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 70px var(--padding-13xl) 195px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+.interested-in-supporting {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.make-sure-to {
+  margin: 0;
+}
+.interested-in-supporting-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frame-item {
+  border: 0;
+  background-color: var(--color-lemonchiffon);
+  height: 375px;
+  width: auto;
+  outline: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.interested-in-supporting-our-m-parent,
+.rectangle-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mid) 0 16px;
+  box-sizing: border-box;
+}
+.interested-in-supporting-our-m-parent {
+  width: 1132px;
+  flex-direction: column;
+  gap: 71px;
+}
+.principle-home-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 325px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+.principle-home-child {
+  align-self: stretch;
+  height: 133px;
+  position: relative;
+  background-color: var(--color-lemonchiffon);
+}
+.principle-home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) 0 0;
+  box-sizing: border-box;
+  gap: 77px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .image-belleco-inner,
+  .pexels-liza-summer-6347901-1-icon {
+    flex: 1;
+  }
+  .image-belleco {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .interested-in-supporting-our-m-parent {
+    gap: var(--gap-16xl);
+  }
+  .principle-home-inner {
+    padding-bottom: 211px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .for-students {
+    font-size: var(--font-size-13xl);
+    line-height: 30px;
+  }
+  .image-belleco-inner {
+    padding-top: var(--padding-23xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .image-belleco {
+    gap: 49px;
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+  .our-goal {
+    font-size: var(--font-size-13xl);
+    line-height: 30px;
+  }
+  .rectangle-parent {
+    padding-top: 45px;
+    padding-bottom: 127px;
+    box-sizing: border-box;
+  }
+  .interested-in-supporting-container {
+    font-size: var(--font-size-19xl);
+    line-height: 30px;
+  }
+  .interested-in-supporting-our-m-parent {
+    gap: var(--gap-lg);
+  }
+  .principle-home {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .for-students {
+    font-size: var(--font-size-5xl);
+    line-height: 23px;
+  }
+  .we-provide-the-container {
+    font-size: var(--font-size-lgi);
+    line-height: 30px;
+  }
+  .image-belleco {
+    gap: 25px;
+  }
+  .our-goal {
+    font-size: var(--font-size-5xl);
+    line-height: 23px;
+  }
+  .our-goal-is {
+    font-size: var(--font-size-lgi);
+    line-height: 30px;
+  }
+  .interested-in-supporting-container {
+    font-size: var(--font-size-10xl);
+    line-height: 23px;
+  }
+  .principle-home-inner {
+    padding-bottom: 137px;
+    box-sizing: border-box;
+  }
+  .principle-home {
+    gap: var(--gap-lgi);
+  }
+}

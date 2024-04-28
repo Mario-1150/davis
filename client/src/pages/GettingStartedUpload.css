@@ -1,0 +1,150 @@
+.frame-child2 {
+  width: 1440px;
+  height: 757px;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.uploading-documents {
+  margin: 0;
+  width: 646px;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-child3 {
+  height: 96px;
+  width: 523px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.upload-1-icon {
+  height: 44px;
+  width: 48px;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 2;
+}
+.rectangle-parent1 {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-7xl) var(--padding-xl) var(--padding-7xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.please-upload-a {
+  width: 302px;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.please-upload-a-file-above-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.upload-component,
+.upload-component-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.upload-component {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.upload-component-wrapper {
+  width: 646px;
+  flex-direction: row;
+  padding: 0 62px 0 61px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.frame-main,
+.getting-startedupload {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-main {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  align-items: center;
+  padding: 103px var(--padding-xl) 369px 92px;
+  gap: 94px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+.getting-startedupload {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-18xl) 0 0;
+  gap: var(--gap-4xs);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 800px) {
+  .uploading-documents {
+    font-size: var(--font-size-19xl);
+    line-height: 30px;
+  }
+  .upload-component-wrapper {
+    padding-left: var(--padding-11xl);
+    padding-right: 31px;
+    box-sizing: border-box;
+  }
+  .frame-main {
+    gap: 47px;
+    padding-left: 46px;
+    padding-top: 67px;
+    padding-bottom: 240px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .uploading-documents {
+    font-size: var(--font-size-10xl);
+    line-height: 23px;
+  }
+  .please-upload-a {
+    font-size: var(--font-size-lgi);
+    line-height: 30px;
+  }
+  .frame-main {
+    gap: 23px;
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
