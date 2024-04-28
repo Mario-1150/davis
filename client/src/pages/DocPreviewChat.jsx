@@ -16,27 +16,27 @@ const DocPreviewChat = () => {
   const handleKeyPress = useCallback(
     (event) => {
       if (event.key === "Enter") {
-        const prompt = inputRef.current.textContent.trim(); // Get the text content of the rectangle
+        const prompt = inputRef.current.value.trim();
         if (prompt) {
-          // Send the prompt to the backend
-          sendPromptToBackend(prompt);
+          // Send the prompt to ask_pdf route
+          sendPromptToPDF(prompt);
           // Clear the input after sending the prompt
-          inputRef.current.textContent = "";
+          inputRef.current.value = "";
         }
       }
     },
     [] // No dependencies needed for this function
   );
 
-  const sendPromptToBackend = useCallback((prompt) => {
-    // Send the prompt to the backend
-    // Example fetch request, modify it according to your backend endpoint
-    fetch("http://localhost:8080/backend-route", {
+  const sendPromptToPDF = useCallback((prompt) => {
+    // Send the prompt to the ask_pdf route
+    fetch("http://localhost:8080/llama3post", {
       method: "POST",
+      mode: 'no-cors',
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ prompt }),
+      body: JSON.stringify({ query: prompt }),
     })
       .then((response) => response.json())
       .then((data) => {
@@ -55,12 +55,18 @@ const DocPreviewChat = () => {
         <div className="frame-child4" />
         <h1 className="document-preview1">Document Preview</h1>
         <PDFDocViewer />
-        <div
+        <img
+          src={rectangleImage}
+          alt="Rectangle 36"
+          className="text-input" // Use the same class as the text input
+          onClick={() => inputRef.current.focus()} // Focus the input when the image is clicked
+        />
+        <input
+          type="text"
           className="text-input"
-          contentEditable={true} // Make the div editable
-          ref={inputRef} // Set the ref to access the div element
-          onKeyDown={handleKeyPress} // Add the key press event handler
-          style={{ backgroundImage: `url(${rectangleImage})` }} // Set the background image
+          placeholder="Type your prompt here and press Enter"
+          ref={inputRef} // Set the ref to access the input element
+          onKeyPress={handleKeyPress} // Add the key press event handler
         />
       </main>
     </div>

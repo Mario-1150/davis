@@ -28,6 +28,7 @@ const GettingStartedUpload = () => {
       fetch("http://localhost:8080/pdf", { // Modify this line
         method: "POST",
         body: formData,
+
       })
       .then(response => response.json())
       .then(data => {
