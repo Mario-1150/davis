@@ -20,3 +20,4 @@ We hope to implement two big features next. These include the ability for text v
 ### Resources:
 - [Towards Data Science Article](https://towardsdatascience.com/meta-llama-3-optimized-cpu-inference-with-hugging-face-and-pytorch-9dde2926be5c)
 - [Huggingface LLM Leaderboard](https://huggingface.co/spaces/Intel/powered_by_intel_llm_leaderboard)
+- [Jupyter Notebook to train gemma-2b model](https://idcbetabatch.eglb.intel.com/user/u222fffe3835dd9a22ee59ce79e80ecb/lab/tree/gemma_xpu_finetuning.ipynb)
