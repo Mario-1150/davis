@@ -1,5 +1,5 @@
 # Submission for HackDavis 2024
---
+
 ## Inspiration
 Our entire team has immigrant parents, and have had experiences translating complicated documents for them. We decided to make an app that does the translation for them, whenever they need to.
 ## What it does
