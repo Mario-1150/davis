@@ -15,7 +15,7 @@ We are proud of learning so much about fine-tuning models and integrating intel 
 - Workflows for developing a full-stack app
 - Debugging techniques used by industry professionals
 ## What's next
-We hope to implement two big features next. These include the ability for text voiceovers, and the ability to translate between languages. Doing so further the demographic we are able to help, aligning ourselves with the AggieHacks 2024 theme of social good.
+We hope to implement two big features next. These include the ability for text voiceovers, and the ability to translate between languages. Doing so further the demographic we are able to help, aligning ourselves with the HackDavis 2024 theme of social good.
 
 ### Resources:
 - [Towards Data Science Article](https://towardsdatascience.com/meta-llama-3-optimized-cpu-inference-with-hugging-face-and-pytorch-9dde2926be5c)
